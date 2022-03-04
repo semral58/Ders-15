@@ -1,0 +1,102 @@
+.container {
+    width: 834px;
+    height: 633px;
+}
+
+.main-info {
+    display: flex;
+}
+
+.title {
+    width: 211.4px;
+    height: 53.86px;
+    margin-left: 72px;
+    margin-top: 56px;
+    font-size: 32px;
+    line-height: 32.44px;
+}
+
+.article {
+    width: 383.41px;
+    height: 216.61px;
+    margin-left: 72px;
+    margin-top: 10.42px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.image {
+    width: 181.86px;
+    height: 182.44px;
+    margin-right: 86.69px;
+    margin-top: 134.19px;
+    position: relative;
+    z-index: 2;
+}
+
+.image-2,
+.ellipse-2 {
+    display: none;
+}
+
+.ellipse {
+    position: absolute;
+    left: 550.39px;
+    top: 299.25px;
+    width: 211.98px;
+    height: 34.17px;
+    background: #EFEFEF;
+    z-index: 1;
+}
+
+.notification {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.item .item-title,
+.item-2 .item-title {
+    width: 86.88px;
+    height: 22.59px;
+    margin-top: 70.1px;
+    font-size: 15px;
+    line-height: 19.5px;
+}
+
+.item .first {
+    margin-left: 72px;
+}
+
+.item .second {
+    margin-left: 55.02px;
+}
+
+.item-2 .third {
+    margin-left: 32.86px;
+}
+
+.item .item-article_1,
+.item-2 .item-article_3 {
+    width: 86.88px;
+    height: 22.59px;
+    margin-top: 0.58px;
+    font-size: 11px;
+    line-height: 14.3px;
+}
+
+.item .item-article_1 {
+    margin-left: 72px;
+}
+
+.item-2 .item-article_3 {
+    margin-left: 32.53px;
+}
+
+.item .item-article_2 {
+    width: 108px;
+    height: 23px;
+    margin-left: 55.23px;
+    margin-top: 0.36px;
+    font-size: 11px;
+    line-height: 14.3px;
+}

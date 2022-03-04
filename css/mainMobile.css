@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+.container {
+    position: relative;
+    width: 375px;
+    height: 776px;
+    background: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+}
+
+.title {
+    width: 170.08px;
+    height: 43.34px;
+    margin-left: 36px;
+    margin-top: 56px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 26.36px;
+}
+
+.article {
+    width: 308.47px;
+    height: 174.27px;
+    margin-left: 36px;
+    margin-top: 8.39px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.image {
+    width: 146.32px;
+    height: 146.78px;
+    margin-left: 113.12px;
+    margin-top: 56px;
+    position: relative;
+    z-index: 2;
+}
+
+.image-2,
+.ellipse-2 {
+    display: none;
+}
+
+.ellipse {
+    position: absolute;
+    left: 100px;
+    top: 440px;
+    width: 170.55px;
+    height: 27.49px;
+    background: #EFEFEF;
+    z-index: 1;
+}
+
+.notification {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item,
+.item-2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.item-2 {
+    width: 135px;
+}
+
+.item .item-title,
+.item-2 .item-title {
+    width: 69.9px;
+    height: 18.17px;
+    margin-top: 45px;
+    margin-left: 35px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15.6px;
+}
+
+.item .item-article_1 {
+    width: 86px;
+    height: 18px;
+    margin-top: 0.83px;
+    margin-left: 35px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+}
+
+.item .item-article_2 {
+    width: 86.89px;
+    height: 18.5px;
+    margin-top: 0.29px;
+    margin-left: 33.33px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+}
+
+.item-2 .item-article_3 {
+    width: 76px;
+    height: 18px;
+    margin-top: 0.83px;
+    margin-left: 35px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+}
